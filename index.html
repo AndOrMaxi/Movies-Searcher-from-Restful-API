@@ -2,49 +2,49 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="styles.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="script.js"></script>
-    <!-- <link rel="stylesheet" type="text/css" href="styles.css" /> -->
-
-    <script>
-
-    </script>
+	<title> Movie searcher</title>
   </head>
 
 
 
   <body>
 
-    <!-- <form action="https://www.omdbapi.com/?i=tt3896198&apikey=640d2cde"> -->
-      First name:<br>
-      <input type="text" name="title" id="movieTitle">
-      <br>
-      <input type="submit" value="Submit" id="submit">
-    <!-- </form> -->
 
-    <!-- <p>
-    Title is <span id="titleShow">____</span>.
-    <img id="poster" src="">
-    <span id="plot"></span>
-    </p>
-    <div class="wrapper">
-      <div class="content">
-        <figure class="myimg">
-           <img src="http://placehold.it/250x200" id="poster">
-         </figure>
-         <h3 id="titleShow">XX</h3>
-           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It
-           has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-           publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-           took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-      <br> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus.
-      </div>
+    <div class="input">
+      <h1>Search Movie:</h1><br>
+      <input type="search" placeholder="Type movie title..." name="title" id="movieTitle" onpaste="$(this).trigger('keyup')"><!-- για να πιάνει και το paste, όχι μόνο την πληκτρολόγηση-->
+      <br>
+      <!-- <input type="submit" value="Submit" id="submit"> -->
     </div>
-  -->
-  <div id="myContainer">
+
+
+  <div id="myContainer" >
   </div>
+
+  <div class="container">
+	<!-- <div class="box"> -->
+      <!-- <figure class="myimg"> -->
+         <!-- <img src="http://placehold.it/250x200" id="poster"> -->
+       <!-- </figure> -->
+       <!-- <h3 id="titleShow">XX</h3> -->
+       <!-- <p> -->
+         <!-- Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It -->
+         <!-- has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop -->
+         <!-- publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer -->
+         <!-- took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. -->
+         <!-- It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus. -->
+       <!-- </p> -->
+       <!-- <button type="button">More</button> -->
+       <!-- <br> -->
+       <!-- <br> -->
+       <!-- <span class="released">Released : 1996 </span> -->
+       <!-- <span class="genre">Genre : Action </span> -->
+    <!-- </div> -->
+  </div>
+
 
 
   </body>
 </html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="script.js"></script>
